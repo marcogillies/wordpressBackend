@@ -27,6 +27,7 @@ Elements where you want to display the title and contents of the  current post
                      wordPressAPI.setPostContentElement("#post_contents");
                      
 Alternatively, provide an look up table which provides the  ids for all of the properties of the post that you want to display
+
                      wordPressAPI.setPostElements({
                             title : "#post_title",
                             content : "#post_contents",
