@@ -12,6 +12,7 @@ Firstly import the wordpressInterface script:
 The main thing you need to do is do a lot of initialisation on startup, e.g. in a JQuery ready function. 
 
 create a Wordpress API object
+
                      var wordPressAPI = WordpressAPI()
 
 Next we specify a lot of parameters, mostly the ids of html elements that are used to access the data
