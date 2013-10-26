@@ -41,11 +41,13 @@
                      
                      // alternative, provide an look up table which provides the 
                      // ids for all of the properties of the post that you want to display
+                     /*
                      wordPressAPI.setPostElements({
                             title : "#post_title",
                             content : "#post_contents",
                             status : "#post_status"
                      });
+                     */
 
                      // previous and next buttons for navigating posts
                      wordPressAPI.setNextButton("#next");
@@ -68,9 +70,9 @@
                      wordPressAPI.setPostListItemStyle('"data-transition="slide" data-theme="c"');
                      
                      // optional: restrict the posts list to a particular tag
-                     wordPressAPI.setPostsListTag("activity");
+                     //wordPressAPI.setPostsListTag("activity");
                      // optional: add a tag to new posts, add multiple tags using a comma separated list
-                     wordPressAPI.setCreatePostTag("activity");
+                     //wordPressAPI.setCreatePostTag("activity");
 
                      // intialise the API, setting up all the buttons
                      wordPressAPI.init();
@@ -212,17 +214,5 @@
                       </div>
                   </div>
               </div>
-              <!-- div id="main">
-                     <button type="button" id="previous">Previous</button>
-                     <button type="button" id="next">Next</button>
-                     <button type="button" id="create">Create</button>
-                     <div id="form" style="display:none">
-                            Title: <br /><input type="text" name="post_title" id="post_title"/><br />
-                            Content: <br /><textarea name="post_contents" id="post_contents"></textarea><br />
-                            <input type="submit" value="Submit" id="create_post"/>
-                     </div>
-                     <div id="title"></div>
-                     <div id="contents"></div>
-              </div -->
        </body>
 </html>
